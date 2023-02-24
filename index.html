@@ -6,46 +6,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biryani Recipe</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+  <header>
+    <h1>Odin Spicy Recipe</h1>
+    <hr>
+    <ul>
+      <li><a href="recipes/biryani.html">Lamb Biryani</a></li>
+      <li><a href="#">Meals</a></li>
+      <li><a href="#">Ingredients</a></li>
+    </ul>
+  </header>
   <Main>
-    <header>
-      <h1>Odin Recipes</h1>
-      <nav>Dinners Meals Ingredients occasions cuisines Kitchen Tips</nav>
-      <a href="recipes/biryani.html">Chicken Biryani</a>
-      <p>
-        Chicken biryani is a rice dish that's typically reserved
-        for special occasions such as weddings, parties, or holidays.
-        It has a lengthy preparation, but the work is definitely worth it.
-      </p>
-    </header>
-    <section>
-      <figure>
-        <img src="biryani-img.jpg" width="350" height="350" alt="Basmati rice cooked with checken">
+    <section class="first-sec">
+      <figure class="img">
+        <p class="first-para">
+          Chicken biryani is a rice dish that's typically reserved <br>
+          for special occasions such as weddings, parties, or holidays. <br>
+          It has a lengthy preparation, but the work is definitely worth it.
+        </p>
+        <img src="biryani-img.jpg" alt="Basmati rice cooked with checken">
       </figure>
-      <figcaption>Delicious <em>Pakistani/Indian</em> rice dish</figcaption>
+      <figcaption class="caption">Delicious <em>Pakistani/Indian</em> rice dish</figcaption>
     </section>
 
-    <section>
-      <p>
-        Prep Time: 30 mins
-      </p>
-      <p>
-        Cook Time: 1 hrs 20 mins
-      </p>
-      <p>
-        Total Time: 1 hrs 50 mins
-      </p>
-      <p>
-        Servings: 6
-      </p>
+    <section class="prep-time">
+      <article class="time">
+        <p class="pr-time">
+          Prep Time:
+        </p>
+        <p class="min"> 30 mins</p>
+      </article>
+      <article class="time">
+        <p class="pr-time">
+          Cook Time:
+        </p>
+        <p class="min"> 1 hrs 20 mins</p>
+      </article>
+      <article class="time">
+        <p class="pr-time">
+          Cook Time:
+        </p>
+        <p class="min">1 hrs 20 mins</p>
+      </article>
+      <article class="time">
+        <p class="pr-time">
+          Total Time:
+        </p>
+        <p class="min">
+          1 hrs 50 mins
+        </p>
+      </article>
     </section>
 
-    <section>
-      <h1>
+    <section class="ingr">
+      <h2>
         Ingredients
-      </h1>
+      </h2>
       <ul>
         <li>4 tablespoon vegetabel oil</li>
         <li>4 small potatoes & 2 tomatoes</li>
@@ -62,32 +81,32 @@
       </ul>
     </section>
 
-    <section>
-      <h1>Directions</h1>
-      <p>
+    <section class="ingr">
+      <h2>Directions</h2>
+      <p class="dir">
       <h3>Step 1</h3>
       Heat oil in a large skillet.
       Fry potatoes until lightly brown.
       Remove to a paper towel to drain and set aside.
       </p>
-      <p>
+      <p class="dir">
       <h3>Step 2</h3>
       Add onions, garlic, and fresh ginger to the oil;
       cook until golden. Add the rest of the Ingredients
       and stir constantly for 5 minutes. Add little water,
       cover and cook over low heat.
       </p>
-      <p>
+      <p class="dir">
       <h3>Step 3</h3>
       Add chicken and stir well to coat. Cover and cook over very low heat
       until chicken is tender.
       </p>
-      <p>
+      <p class="dir">
       <h3>Step 4</h3>
       Meanwhile wash rice well and drain in colander
       for at least 30 minutes.
       </p>
-      <p>
+      <p class="dir">
       <h3>Step 5</h3>
       Add water to the chicken mixture and heat chicken stock
       until hot, pour over rice and stir well. Bring to a boil
@@ -100,8 +119,16 @@
   </Main>
 
   <footer>
-    <p>Recipe by mrKaan</p>
+    <h4>Recipe by mrKaan</h4>
+    <address>
+      Jet Propulsion Laboratory
+      <br>4800 Oak Grove Drive
+      <br>Pasadena, California
+      <br>91109
+    </address>
+    <p>© 2063 Spicy kitchen</p>
   </footer>
+
 </body>
 
 </html>
